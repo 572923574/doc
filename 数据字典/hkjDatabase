@@ -1,0 +1,44 @@
+/*==============================================================*/
+/* DBMS name:      MySQL 5.0                                    */
+/* Created on:     2018/10/8 21:11:54                           */
+/*==============================================================*/
+
+
+drop table if exists ADMINACCOUNT;
+
+drop table if exists goods;
+
+/*==============================================================*/
+/* Table: ADMINACCOUNT                                          */
+/*==============================================================*/
+create table ADMINACCOUNT
+(
+   id                   int not null auto_increment,
+   name                 varchar(50) not null,
+   mobile               varchar(20) not null,
+   password             varchar(50) not null,
+   role                 char(1),
+   status               char(1),
+   primary key (id)
+);
+
+alter table ADMINACCOUNT comment '系统用户表';
+
+/*==============================================================*/
+/* Table: goods                                                 */
+/*==============================================================*/
+create table goods
+(
+   id                   int not null auto_increment,
+   name                 varchar(50) not null,
+   barCode              varchar(50) not null,
+   no                   varchar(50) not null,
+   type                 int(50) not null,
+   company              varchar(50),
+   sonType              int(50),
+   batch                varchar(50),
+   price                double,
+   status               char(1) not null,
+   primary key (id)
+);
+
