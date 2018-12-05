@@ -4,7 +4,7 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{A17B4D97-D99D-4003-87AC-99A56EECA9C9}" Name="spa" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="hkj.pdm"/>
+		<Model Expanded="Yes" ID="{A17B4D97-D99D-4003-87AC-99A56EECA9C9}" Name="hkj" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="hkj.pdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
